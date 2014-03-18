@@ -1,0 +1,5 @@
+<%= form_for configuration, url: configurations_path do |f| %>
+  <%= f.text_field :key, placeholder: 'Key' %>
+  <%= f.text_field :data, placeholder: 'Value' %>
+  <%= f.submit %>
+<% end %>
