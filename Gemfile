@@ -32,7 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'global_configuration', path: '../Gems/global_configuration'
+gem 'global_configuration'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
